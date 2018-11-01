@@ -1,0 +1,23 @@
+{
+  "name": "jsautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "p": "prettier --write 'test/**/*.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "selenium-standalone": "6.15.3",
+    "wdio-cucumber-framework": "2.2.8",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "webdriverio": "4.14.0"
+  },
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "prettier-eslint": "8.8.2"
+  }
+}
